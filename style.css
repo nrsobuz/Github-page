@@ -1,6 +1,6 @@
 h1.color{
     color: white;
-    background-color: orchid;
+    background: orchid;
     font-size: 30px;
     text-align: center;
 }
@@ -19,4 +19,8 @@ h1.color{
 .text-aligne{
     text-align: center;
     background: chocolate;
+}
+
+h1:hover{
+    color: crimson;  
 }

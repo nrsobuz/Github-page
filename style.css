@@ -3,6 +3,7 @@ h1.color{
     background: orchid;
     font-size: 30px;
     text-align: center;
+    background-image: url(Images/quran2.jpg) ;
 }
 
 .box{
@@ -52,3 +53,5 @@ table {
     padding: 5px;
     margin: 5%;
   }
+
+  

@@ -1,5 +1,5 @@
 h1.color{
-    color: white;
+    
     background: orchid;
     font-size: 30px;
     text-align: center;
@@ -7,7 +7,7 @@ h1.color{
 }
 
 .box{
-    width: 42.5%;
+    width: 43%;
     height: 100%;
     border: 5px solid orange;
     margin: 2.5%;
@@ -17,12 +17,32 @@ h1.color{
     float: left;
 }
 
+.box1{
+    width: 43%;
+    height: 171px;
+    border: 5px solid orange;
+    margin: 2.5%;
+    border-radius: 0 20px 20px;
+    padding: 10px ;
+    text-align:justify;
+    float: left;
+    overflow: hidden;
+}
+
+.scroll:hover{
+    overflow-y:scroll; 
+}
+
 .background{ 
-    background-image: url(Images/quran2.jpg) ;
+    background-image: url(Images/quran-3.jpg) ;
     background-repeat: no-repeat;
     background-size: 100%;
-    color: white;
+    
     text-align: center;
+}
+
+.background, h1.color{
+    color: white;
 }
 
 .text-aligne{
@@ -31,10 +51,15 @@ h1.color{
 }
 
 h1:hover{
-    color: crimson;  
+    color:springgreen;  
 }
 
-img{
+a:visited {
+    color: blue;}
+
+  
+
+.section,img{
     width:50%;
 }
 
@@ -52,7 +77,6 @@ table {
     text-align: center;
   }
   .section{
-      width: 50%;
       float: left;
   }
 
@@ -63,4 +87,19 @@ table {
     margin: 5%;
   }
 
-  
+  div li{
+      color: goldenrod;
+  }
+
+  .box > p{
+      color:tomato;
+  }
+
+  div + p{
+    color:tomato;
+    text-align: left;
+}
+
+div ~ p{
+    font-style: italic;
+}
